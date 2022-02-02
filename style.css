@@ -1,0 +1,299 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+/* Home page */
+
+.contaner {
+  margin: 180px 120px;
+  width: 60%;
+}
+
+.contaner p {
+  padding: 5px 0;
+}
+
+.name {
+  color: rgb(255, 239, 13);
+}
+
+.linkHome {
+  text-decoration: none;
+}
+
+.btnHome:hover {
+  color: orange;
+  border: 1px solid white;
+}
+
+.btnHome {
+  width: 120px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(59, 58, 58);
+  display: block;
+  margin-top: 10px;
+}
+
+/* About page */
+
+.titleAbout {
+  color: rgb(255, 239, 13);
+  padding: 8px;
+}
+
+.h1About {
+  text-align: center;
+  padding: 20px 0 0 20px;
+}
+
+.contanerAbout {
+  margin: 10px 45px;
+  display: inline-flex;
+}
+
+hr {
+  width: 90%;
+  color: darkslategrey;
+  margin: 5px auto;
+}
+
+.leftAbout {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.infoAbout {
+  color: rgb(255, 239, 13);
+}
+
+.leftAbout p {
+  font-weight: bold;
+  padding-top: 15px;
+  line-height: 20px;
+}
+
+.btnAbout {
+  background-color: rgb(59, 58, 58);
+  width: 140px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  display: block;
+  margin-top: 15px;
+}
+
+.rightAbout {
+  display: inline-block;
+  margin: 40px 180px;
+}
+
+.boxAbout {
+  width: 160px;
+  height: 120px;
+  background-color: rgb(48, 47, 47);
+  display: inline-block;
+  margin: 15px 15px;
+}
+
+.boxAbout span {
+  color: orange;
+  display: inline-block;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  padding: 0 50px;
+  margin: 10px;
+}
+
+.boxAbout p {
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+/* Education page */
+
+.boxEducation {
+  display: inline-block;
+  width: 45%;
+  margin-top: 30px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: yellow;
+  display: inline-block;
+}
+
+.btnEducation {
+  width: 60px;
+  height: 20px;
+  background-color: rgb(48, 47, 47);
+  border: none;
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 8px;
+  position: absolute;
+  top: 10px;
+  left: 48px;
+}
+
+.boxEducation p,
+h2 {
+  padding-left: 50px;
+}
+
+/* Portfolio Page */
+
+.boxPortfolio {
+  width: 250px;
+  height: 190px;
+  border: 1px solid white;
+  display: inline-block;
+  margin: 15px 20px;
+  border-radius: 15px;
+}
+
+.groupPortfolio {
+  margin: 10px 0 0 60px;
+}
+
+.groupPortfolio2 {
+  margin: 10px 0 0 60px;
+}
+
+.boxPortfolio2 {
+  width: 250px;
+  height: 190px;
+  border: 1px solid white;
+  display: inline-block;
+  margin: 15px 20px;
+  border-radius: 15px;
+}
+
+.groupTwo {
+  margin: 50px auto;
+}
+
+.img1 {
+  width: 250px;
+  height: 190px;
+  border-radius: 15px;
+  background-image: url(./Images/MyWork2.jpg);
+  background-size: cover;
+}
+
+.img2 {
+  width: 250px;
+  height: 190px;
+  border-radius: 15px;
+  background-image: url(./Images/MyWork1.jpg);
+  background-size: cover;
+}
+
+.img3 {
+  width: 250px;
+  height: 190px;
+  border-radius: 15px;
+  background-image: url(./Images/MyWork3.jpg);
+  background-size: cover;
+}
+
+.img4 {
+  width: 250px;
+  height: 190px;
+  border-radius: 15px;
+  background-image: url(./Images/MyWork4.jpg);
+  background-size: cover;
+}
+
+.img5 {
+  width: 250px;
+  height: 190px;
+  border-radius: 15px;
+  background-image: url(./Images/MyWork5.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.img6 {
+  width: 250px;
+  height: 190px;
+  border-radius: 15px;
+  background-image: url(./Images/MyWork6.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position-y: 40px;
+  background-position-x: 20px; */
+}
+
+/* Cantact Page */
+
+.groupContact {
+  display: inline-flex;
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.leftContact {
+  margin: 120px 60px;
+}
+
+.rightContact {
+  float: right;
+  margin-left: 30px;
+  position: absolute;
+  left: 450px;
+  top: 20px;
+}
+
+.leftContact p {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.rightContact input {
+  display: block;
+  width: 370px;
+  height: 30px;
+  background-color: rgb(44, 43, 42);
+  border: none;
+  margin: 25px 40px;
+}
+
+.rightContact input::placeholder {
+  padding-left: 15px;
+}
+
+.rightContact .message {
+  width: 370px;
+  height: 120px;
+}
+
+.rightContact .message::placeholder {
+  padding: 15px !important;
+}
+
+.rightContact button {
+  display: inline-block;
+  color: white;
+  background-color: rgb(59, 58, 58);
+  margin: 10px 40px;
+  border-radius: 15px;
+  border: none;
+  height: 20px;
+  width: 80px;
+}

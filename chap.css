@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+body {
+  background-color: rgb(27, 26, 26);
+}
+
+.contaner {
+  margin: 90px 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: orange;
+}
+
+.btn:hover {
+  border: 1px solid white;
+  color: orange;
+}
+
+.myName {
+  margin-left: 15px;
+}
+
+.myName h2 {
+  padding: 5px 0 0 1px;
+}
+
+.myName p {
+  font-weight: bold;
+  padding: 5px 17px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid yellow;
+  margin-left: 5px;
+  background-image: url("images.jpg");
+  background-size: cover;
+  background-position: right;
+}
+
+.btn {
+  display: block;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: rgb(59, 58, 58);
+  border: none;
+  margin-top: 15px;
+}
